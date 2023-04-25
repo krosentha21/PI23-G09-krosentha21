@@ -31,5 +31,13 @@ namespace EvaluationManagerG09
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (txtUsername.Text=="")
+            {
+                MessageBox.Show("Korisničo ime nije uneseno!","Problem",MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
