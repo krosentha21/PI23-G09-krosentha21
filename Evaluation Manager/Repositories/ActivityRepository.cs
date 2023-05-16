@@ -14,7 +14,7 @@ namespace Evaluation_Manager.Repositories
         public static Activity GetActivity(int id)
         {
             Activity activity = null;
-            string sql = $"SELECT * FORM Activities WHERE Id = {id}";
+            string sql = $"SELECT * FROM Activities WHERE Id = {id}";
             DB.OpenConnection();
             var reader = DB.GetDataReader(sql);
             if (reader.HasRows)
