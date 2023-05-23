@@ -104,7 +104,6 @@ namespace Evaluation_Manager.Models
                     grade = 1;
                 }
             }
-            
 
             return grade;
         }
